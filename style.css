@@ -1,0 +1,120 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var, u, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body, html{
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+}
+p{
+    margin-top: 15px;
+}
+li{
+    margin-top: 15px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-family: 'roboto', sans-serif;
+}
+p, li, a, span{
+    font-family: 'roboto', sans-serif;
+}
+
+hr{
+    border: 0;
+	border-top: 1px solid brown;
+
+}
+section{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.alinhar-esquerda{
+    margin-left: 15px;
+    
+}
+
+.logo-menu{
+    float: left;
+    height: 80px;
+    
+}
+#menu-item {
+    background-color:brown;
+    text-align: center;
+    
+    width: 100%;
+    
+}
+#menu-item ul li{
+    display: inline;
+    
+}
+#menu-item ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    font-size: 18px;
+    line-height: 0%;
+    text-transform: uppercase;
+}
+#menu-item ul li a:hover{
+    background-color: crimson;
+}
+
+.definicao{
+    margin-top: 15px;
+    cursor: pointer;
+}
+footer{
+    
+    background-color: brown;
+    padding: 30px;
+    margin-top: 50px;
+    border-top: 10px solid #5271FF;
+}
+.menu-rodape ul li{
+    list-style: none;
+    margin-top: 5px;
+    
+    
+}
+
+.menu-rodape ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.801);
+}
+.direito-autoral{
+    color: rgba(255, 255, 255, 0.801);
+    float: right;
+}
